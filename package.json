@@ -4,7 +4,8 @@
   "description": "Web-app Govnolia",
   "main": "index.js",
   "scripts": {
-    "test": "2893"
+    "test": "2893",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/govnolia/Express#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "uuid": "^3.3.2"
   }
 }
